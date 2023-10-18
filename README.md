@@ -8,6 +8,7 @@ Amy is given two positive integers, n and m. She defines 2 values, num1 and num2
 Now, provide the result of subtracting num2 from num1.
 
 **Example 1:**
+
 **Input:** n = 10, m = 3<br>
 **Output:** 19<br>
 **Explanation:**
@@ -17,6 +18,7 @@ In the given example:
 We return 37 - 18 = 19 as the answer.
 
 **Example 2:**
+
 **Input:** n = 5, m = 6<br>
 **Output:** 15<br>
 **Explanation:**
@@ -26,6 +28,7 @@ In the given example:
 We return 15 - 0 = 15 as the answer.
 
 **Example 3:**
+
 **Input:** n = 5, m = 1<br>
 **Output:** -15<br>
 **Explanation:**
