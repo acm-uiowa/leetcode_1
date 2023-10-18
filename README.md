@@ -1,43 +1,47 @@
 <h1>Group 1 (Beginner Div)</h1>
 
 <h2>A</h2>
-Amy is given two positive integers, n and m. She defines 2 values, num1 and num2, as follows:</br>
-- num1: The sum of all integers in the range from 1 to n (inclusive) that are not divisible by m.</br>
-- num2: The sum of all integers in the range from 1 to n (inclusive) that are divisible by m.
+Amy is given two positive integers, `n` and `m`. She defines 2 values, `num1` and `num2`, as follows:</br>
+- `num1`: The sum of all integers in the range from `1 to n` (inclusive) that are not divisible by `m`.</br>
+- `num2`: The sum of all integers in the range from `1 to n` (inclusive) that are divisible by `m`.
 
-Now, provide the result of subtracting num2 from num1.
+Now, provide the result of subtracting `num2` from `num1`.
 
 **Example 1:**
 
-**Input:** n = 10, m = 3`<br>`
-**Output:** 19`<br>`
+**Input:** n = 10, m = 3
+
+**Output:** 19
+
 **Explanation:**
 In the given example:
 
-- Integers in the range [1, 10] that are not divisible by 3 are [1,2,4,5,7,8,10], num1 is the sum of those integers = 37.
-- Integers in the range [1, 10] that are divisible by 3 are [3,6,9], num2 is the sum of those integers = 18.
-  We return 37 - 18 = 19 as the answer.
+- Integers in the range `[1, 10]` that are not divisible by 3 are `[1,2,4,5,7,8,10]`, `num1` is the sum of those integers = 37.
+- Integers in the range `[1, 10]` that are divisible by 3 are `[3,6,9]`, num2 is the sum of those integers = 18. We return 37 - 18 = 19 as the answer.
 
 **Example 2:**
 
-**Input:** n = 5, m = 6`<br>`
-**Output:** 15`<br>`
+**Input:** n = 5, m = 6
+
+**Output:** 15
+
 **Explanation:**
 In the given example:
 
-- Integers in the range [1, 5] that are not divisible by 6 are [1,2,3,4,5], num1 is the sum of those integers = 15.
-- Integers in the range [1, 5] that are divisible by 6 are [], num2 is the sum of those integers = 0.
-  We return 15 - 0 = 15 as the answer.
+- Integers in the range `[1, 5]` that are not divisible by 6 are `[1,2,3,4,5]`, `num1` is the sum of those integers = 15.
+- Integers in the range `[1, 5]` that are divisible by 6 are [], `num2` is the sum of those integers = 0. We return 15 - 0 = 15 as the answer.
 
 **Example 3:**
 
-**Input:** n = 5, m = 1`<br>`
-**Output:** -15`<br>`
+**Input:** n = 5, m = 1
+
+**Output:** -15
+
 **Explanation:**
 In the given example:
 
-- Integers in the range [1, 5] that are not divisible by 1 are [], num1 is the sum of those integers = 0.
-- Integers in the range [1, 5] that are divisible by 1 are [1,2,3,4,5], num2 is the sum of those integers = 15.
+- Integers in the range [1, 5] that are not divisible by 1 are [], `num1` is the sum of those integers = 0.
+- Integers in the range [1, 5] that are divisible by 1 are [1,2,3,4,5], `num2` is the sum of those integers = 15.
   We return 0 - 15 = -15 as the answer.
 
 **Constraints:**
@@ -45,6 +49,7 @@ In the given example:
 - 1 <= n, m <= 1000
 
 <h2>B</h2>
+
 You are given a positive integer array `nums`.
 
 The element sum is the sum of all the elements in `nums`.
@@ -55,8 +60,10 @@ Note that the absolute difference between two integers x and y is defined as |x 
 
 **Example 1:**
 
-**Input:** `nums = [1,15,6,3]<br>`
-**Output:** `9<br>`
+**Input:** nums = [1,15,6,3]
+
+**Output:** 9
+
 **Explanation:**
 The element sum of `nums` is 1 + 15 + 6 + 3 = 25.
 The digit sum of `nums` is 1 + 1 + 5 + 6 + 3 = 16.
@@ -64,8 +71,10 @@ The absolute difference between the element sum and digit sum is |25 - 16| = 9.
 
 **Example 2:**
 
-**Input:** `nums = [1,2,3,4]<br>`
-**Output:** `0<br>`
+**Input:** `nums = [1,2,3,4]`
+
+**Output:** 0
+
 **Explanation:**
 The element sum of `nums` is 1 + 2 + 3 + 4 = 10.
 The digit sum of `nums` is 1 + 2 + 3 + 4 = 10.
