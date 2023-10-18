@@ -114,6 +114,7 @@ The transpose of a matrix is the matrix flipped over its main diagonal, switchin
 - `-109 <= matrix[i][j] <= 109`
 
 <h2>B</h2>
+
 An array `nums` of length `n` is beautiful if:
 
 - `nums` is a permutation of the integers in the range `[1, n]`.
