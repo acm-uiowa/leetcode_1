@@ -1,3 +1,5 @@
+
+
 <h1>Group 1</h1>
 
 <h2>A</h2>
@@ -9,36 +11,40 @@ Now, provide the result of subtracting num2 from num1.
 
 **Example 1:**
 
-**Input:** n = 10, m = 3<br>
-**Output:** 19<br>
+**Input:** n = 10, m = 3`<br>`
+**Output:** 19`<br>`
 **Explanation:**
 In the given example:
+
 - Integers in the range [1, 10] that are not divisible by 3 are [1,2,4,5,7,8,10], num1 is the sum of those integers = 37.
 - Integers in the range [1, 10] that are divisible by 3 are [3,6,9], num2 is the sum of those integers = 18.
-We return 37 - 18 = 19 as the answer.
+  We return 37 - 18 = 19 as the answer.
 
 **Example 2:**
 
-**Input:** n = 5, m = 6<br>
-**Output:** 15<br>
+**Input:** n = 5, m = 6`<br>`
+**Output:** 15`<br>`
 **Explanation:**
 In the given example:
+
 - Integers in the range [1, 5] that are not divisible by 6 are [1,2,3,4,5], num1 is the sum of those integers = 15.
 - Integers in the range [1, 5] that are divisible by 6 are [], num2 is the sum of those integers = 0.
-We return 15 - 0 = 15 as the answer.
+  We return 15 - 0 = 15 as the answer.
 
 **Example 3:**
 
-**Input:** n = 5, m = 1<br>
-**Output:** -15<br>
+**Input:** n = 5, m = 1`<br>`
+**Output:** -15`<br>`
 **Explanation:**
 In the given example:
+
 - Integers in the range [1, 5] that are not divisible by 1 are [], num1 is the sum of those integers = 0.
 - Integers in the range [1, 5] that are divisible by 1 are [1,2,3,4,5], num2 is the sum of those integers = 15.
-We return 0 - 15 = -15 as the answer.
+  We return 0 - 15 = -15 as the answer.
 
 **Constraints:**
--  1 <= n, m <= 1000
+
+- 1 <= n, m <= 1000
 
 <h2>B</h2>
 You are given a positive integer array `nums`.
@@ -51,8 +57,8 @@ Note that the absolute difference between two integers x and y is defined as |x 
 
 **Example 1:**
 
-**Input:** `nums = [1,15,6,3]`<br>
-**Output:** `9`<br>
+**Input:** `nums = [1,15,6,3]<br>`
+**Output:** `9<br>`
 **Explanation:**
 The element sum of `nums` is 1 + 15 + 6 + 3 = 25.
 The digit sum of `nums` is 1 + 1 + 5 + 6 + 3 = 16.
@@ -60,14 +66,15 @@ The absolute difference between the element sum and digit sum is |25 - 16| = 9.
 
 **Example 2:**
 
-**Input:** `nums = [1,2,3,4]`<br>
-**Output:** `0`<br>
+**Input:** `nums = [1,2,3,4]<br>`
+**Output:** `0<br>`
 **Explanation:**
 The element sum of `nums` is 1 + 2 + 3 + 4 = 10.
 The digit sum of `nums` is 1 + 2 + 3 + 4 = 10.
 The absolute difference between the element sum and digit sum is |10 - 10| = 0.
 
 **Constraints:**
+
 - `1 <= nums.length <= 2000`
 - `1 <= nums[i] <= 2000`
 
@@ -77,18 +84,19 @@ Given a 2D integer array `matrix`, return the transpose of the matrix.
 
 The transpose of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices.
 
-![](image.png)
+![]()![](https://cdn.discordapp.com/attachments/777732038324256779/1164281049552015420/image.png?ex=6542a439&is=65302f39&hm=ede6732aa5730ec719b7e7ecb828a70977224ba57b3225ae0de9f0227853d17a&)
 **Example 1:**
 
-**Input:** `matrix = [[1,2,3],[4,5,6],[7,8,9]]`<br>
-**Output:** `[[1,4,7],[2,5,8],[3,6,9]]`<br>
+**Input:** `matrix = [[1,2,3],[4,5,6],[7,8,9]]<br>`
+**Output:** `[[1,4,7],[2,5,8],[3,6,9]]<br>`
 
 **Example 2:**
 
-**Input:** `matrix = [[1,2,3],[4,5,6]]`<br>
-**Output:** `[[1,4],[2,5],[3,6]]`<br>
+**Input:** `matrix = [[1,2,3],[4,5,6]]<br>`
+**Output:** `[[1,4],[2,5],[3,6]]<br>`
 
 **Constraints:**
+
 - `m == matrix.length`
 - `n == matrix[i].length`
 - `1 <= m, n <= 1000`
