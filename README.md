@@ -1,6 +1,4 @@
-
-
-<h1>Group 1</h1>
+<h1>Group 1 (Beginner Div)</h1>
 
 <h2>A</h2>
 Amy is given two positive integers, n and m. She defines 2 values, num1 and num2, as follows:</br>
@@ -78,7 +76,7 @@ The absolute difference between the element sum and digit sum is |10 - 10| = 0.
 - `1 <= nums.length <= 2000`
 - `1 <= nums[i] <= 2000`
 
-<h1>Group 2</h1>
+<h1>Group 2 (Intermediate Div)</h1>
 <h2>A</h2>
 Given a 2D integer array `matrix`, return the transpose of the matrix.
 
