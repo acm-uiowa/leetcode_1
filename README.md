@@ -84,16 +84,18 @@ Given a 2D integer array `matrix`, return the transpose of the matrix.
 
 The transpose of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices.
 
-![]()![](https://cdn.discordapp.com/attachments/777732038324256779/1164281049552015420/image.png?ex=6542a439&is=65302f39&hm=ede6732aa5730ec719b7e7ecb828a70977224ba57b3225ae0de9f0227853d17a&)
+![](https://cdn.discordapp.com/attachments/777732038324256779/1164281049552015420/image.png?ex=6542a439&is=65302f39&hm=ede6732aa5730ec719b7e7ecb828a70977224ba57b3225ae0de9f0227853d17a&)
 **Example 1:**
 
-**Input:** `matrix = [[1,2,3],[4,5,6],[7,8,9]]<br>`
-**Output:** `[[1,4,7],[2,5,8],[3,6,9]]<br>`
+**Input:** `matrix = [[1,2,3],[4,5,6],[7,8,9]]`
+
+**Output:** `[[1,4,7],[2,5,8],[3,6,9]]`
 
 **Example 2:**
 
-**Input:** `matrix = [[1,2,3],[4,5,6]]<br>`
-**Output:** `[[1,4],[2,5],[3,6]]<br>`
+**Input:** `matrix = [[1,2,3],[4,5,6]]`
+
+**Output:** `[[1,4],[2,5],[3,6]]`
 
 **Constraints:**
 
