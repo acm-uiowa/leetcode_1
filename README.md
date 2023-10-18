@@ -1,6 +1,7 @@
 <h1>Group 1 (Beginner Div)</h1>
 
 <h2>A</h2>
+
 Amy is given two positive integers, `n` and `m`. She defines 2 values, `num1` and `num2`, as follows:</br>
 - `num1`: The sum of all integers in the range from `1 to n` (inclusive) that are not divisible by `m`.</br>
 - `num2`: The sum of all integers in the range from `1 to n` (inclusive) that are divisible by `m`.
